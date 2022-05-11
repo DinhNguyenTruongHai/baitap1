@@ -30,7 +30,7 @@ a{
 body{
     margin: 0 auto;
     font-family: Arial;
-    background-color: white;
+    background-color: rgb(224, 30, 30);
 }
 #lienket{
     display: flex;
@@ -76,7 +76,7 @@ body{
     color: white;
 }
 #menu ul li a{
-    color: white;
+    color: rgb(211, 25, 25);
     display: block;
     height: 23px;
     padding: 1px 7px;
