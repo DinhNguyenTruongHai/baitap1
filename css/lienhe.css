@@ -87,7 +87,7 @@ body{
     height: 15px;
     color: #e0611d;
 }
-#menu ul li a.active{
+#menu ul li a.menu-active {
     background: none repeat scroll 0 0 #831d1d;
     border: 1px solid #f9cfb6;
     border-radius: 5px;
