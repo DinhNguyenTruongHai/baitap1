@@ -88,66 +88,8 @@ span.psw {
     <link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
-<body>
-    <div id="id01" class="modal">
-  
-        <form class="modal-content animate" action="/action_page.php" method="post">
-          <div class="imgcontainer">
-            <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>            
-          </div>
-      
-          <div class="container">
-            <label for="uname"><b>Tên đăng nhập</b></label>
-            <input type="text" placeholder="Nhập tên đăng nhập" name="uname" required>
-      
-            <label for="psw"><b>Mật khẩu</b></label>
-            <input type="password" placeholder="Nhập mật khẩu" name="psw" required>
-              
-            <button type="submit">Đăng nhập</button>
-            <label>
-              <input type="checkbox" checked="checked" name="remember"> Remember me
-            </label>
-          </div>
-      
-          <div class="container" style="background-color: rgba(255, 255, 255, 0.8);">
-            <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Hủy</button>
-            <span class="psw">Forgot <a href="#">password?</a></span>
-          </div>
-        </form>
-      </div>      
-      <script>
-      var modal = document.getElementById('id01');
-      window.onclick = function(event) {
-          if (event.target == modal) {
-              modal.style.display = "none";
-          }
-      }
-      </script>
-      <div id="id02" class="modal">  
-        <form class="modal-content animate" action="/action_page.php" method="post">
-          <div class="imgcontainer">
-            <span onclick="document.getElementById('id02').style.display='none'" class="close" title="Close Modal">&times;</span>            
-          </div>
-          <div class="container">
-            <label for="uname"><b>Tên đăng kí</b></label>
-            <input type="text" placeholder="Nhập tên cần đăng kí" name="uname" required>      
-            <label for="psw"><b>Mật khẩu đăng kí</b></label>
-            <input type="password" placeholder="Nhập mật khẩu cần đăng kí" name="psw" required>              
-            <button type="submit">Đăng kí!</button>
-            <label>
-              <input type="checkbox" checked="checked" name="remember"> Check
-            </label>
-          </div>    
-         </form>
-      </div>      
-      <script>
-       var modal = document.getElementById('id02');
-      window.onclick = function(event) {
-          if (event.target == modal) {
-              modal.style.display = "none";
-          }
-      }
-      </script>
+<body>     
+     
     <section id="header">
         <div id="logo">
             <a href="#"><img src="img/header/logo.png" alt=""></a>
@@ -173,7 +115,7 @@ span.psw {
                   <li><a href="#">Khuyến mãi</a></li>
                   <li><a href="header-footer.html">Giới thiệu</a></li>
                   <li><a href="lienhe.html">Liên hệ</a></li>
-                  <li><a href="#">Tuyển dụng</a></li>
+                  <li><a href="tuyendung.html">Tuyển dụng</a></li>
                   <li><a href="thanhtoan.html">Thanh toán</a></li>
                   <li><a href="gio.html"> <img src="img/header/cart.png" alt=""> </a> </li>
                 </ul>
@@ -199,11 +141,11 @@ span.psw {
         </div>
         <div class="footer-right">
 <ul>
-    <li> <a href="#">Sơ đồ site</a> </li>
-    <li> <a href="#">Nhượng quyền</a> </li>
-    <li> <a href="#">Chính sách bảo mật</a> </li>
-    <li> <a href="#">Điều kiện sử dụng</a> </li>
-    <li> <a href="#">Head office</a> </li>
+  <li><a href="#">Sơ đồ site</a></li>
+  <li><a href="nhuongquyen.html">Nhượng quyền</a></li>
+  <li><a href="chinhsachbaomat.html">Chính sách bảo mật</a></li>
+  <li><a href="dieukiensudung.html">Điều kiện sử dụng</a></li>
+  <li><a href="office.html">Head office</a></li>
 </ul>
         </div>
     </section>    
